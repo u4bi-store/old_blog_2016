@@ -61,10 +61,14 @@ function GitPageController($scope, GitPageService) {
 	function notice(){
 		$scope.viewNotice = true;
 		$scope.notice = parser('/config/notice.json');
+		console.log('notice');
+		console.log($scope.notice);
 	}
 	function day(){
 		$scope.viewDairy = true;
 		$scope.day = parser('/day/day1.json');
+		console.log('day');
+		console.log($scope.day);
 	}
 
 //----------------------- stock --------------------------
@@ -72,6 +76,7 @@ function GitPageController($scope, GitPageService) {
 	function parser(path){
 		var q = GitPageService.json(path);
 		q.then(function(data){
+			console.log(data);
 			return data;
 		});
 	}
