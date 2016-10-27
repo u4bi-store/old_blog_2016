@@ -9,24 +9,24 @@ function GitPageController($scope, GitPageService) {
 		$scope.join = false;
 		$scope.already = '';
  
-		$scope.action = function(cmd){
+		$scope.action = function(send){
 			var num;
-			if(cmd == $scope.already) return $scope.cmd ='';
+			if(send == $scope.already) return $scope.send ='';
 			if(!$scope.join){
-				if(cmd == 'shell') num=0;
+				if(send == 'shell') num=0;
 			}else{
-				if(cmd == 'cd') num=1;
-				if(cmd == 'exit') num=2;
-				if(cmd == 'day') num=3;
+				if(send == 'cd') num=1;
+				if(send == 'exit') num=2;
+				if(send == 'day') num=3;
 			}
-			cmdManager(num, cmd);
-			$scope.cmd ='';
+			cmdManager(num, send);
+			$scope.send ='';
 		};
 	}
 //----------------------- manager --------------------------
-	function cmdManager(num, cmd){
+	function cmdManager(num, send){
 		removeAlreadyCMD($scope.already);
-		$scope.already = cmd;
+		$scope.already = send;
 		switch(num){
 			case 0: shell(); break;
 			case 1: main(); break;
@@ -35,12 +35,12 @@ function GitPageController($scope, GitPageService) {
 			default :break;
 		}
 	}
-	function removeAlreadyCMD(cmd){
-		if(cmd == 'shell' || cmd == 'cd'){
+	function removeAlreadyCMD(already){
+		if(already == 'shell' || already == 'cd'){
 			$scope.viewNotice = false;
 			$scope.notice = null;
 		}
-		if(cmd == 'day'){
+		if(already == 'day'){
 			$scope.viewDairy = false;
 			$scope.day  = null;
 		}
