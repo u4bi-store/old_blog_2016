@@ -40,7 +40,7 @@ function GitPageController($scope, GitPageService) {
 			$scope.viewNotice = false;
 			$scope.notice = null;
 		}
-		if(already == 'day'){
+		if(already.substr(0, 4) == 'day '){
 			$scope.viewDairy = false;
 			$scope.day  = null;
 		}
