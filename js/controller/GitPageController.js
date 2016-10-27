@@ -8,6 +8,7 @@ function GitPageController($scope, GitPageService) {
 		$scope.flag = false;
 		$scope.join = false;
 		$scope.already = '';
+		parser('/day/day1.json');
  
 		$scope.action = function(send){
 			var num;
@@ -74,7 +75,6 @@ function GitPageController($scope, GitPageService) {
 		var q = GitPageService.json(path);
 		q.then(function(data){
 			console.log(data);
-			return data;
 		});
 	}
 
