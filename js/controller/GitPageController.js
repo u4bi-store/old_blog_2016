@@ -16,7 +16,7 @@ function GitPageController($scope, GitPageService) {
 				if(send == 'cd') cmdManager(send, 1);
 				if(send == 'exit') cmdManager(send, 2);
 				if(send.substr(0, 4) == 'day '){
-					var num = send.substr(5, send.length);
+					var num = send.substr(4, send.length);
 					cmdManager(send, 3, num);
 					console.log(num);
 				}
