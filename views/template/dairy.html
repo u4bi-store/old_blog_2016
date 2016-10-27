@@ -1,0 +1,10 @@
+<span id="main-title">{{diary.title}}<br></span>
+<span id="main-content">{{diary.content}}<br></span>
+<span id="main-date">{{diary.year}}년 {{diary.month}}월 {{diary.day}}일 {{diary.hour}}시 {{diary.min}}분 작성<br></span>
+<br>
+<span class="main-content-title"> * Today I Learned (TIL)<br></span>
+<span ng-repeat="x in diary.til"><a ng-href="{{x[1]}}">{{x[0]}}</a><br></span>
+<br>
+<span class="main-content-title"> * 오늘 하루 좋았던점</span><br><span> {{diary.nice}}<br></span>
+<span class="main-content-title"> * 오늘 하루 안좋은점</span><br><span> {{diary.bad}}<br></span>
+<span class="main-content-title"> * 오늘 하루 개선할점</span><br><span> {{diary.imp}}<br></span>

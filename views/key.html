@@ -1,0 +1,6 @@
+<div id="key">
+	<span id="key-title">
+		<span ng-style="bg_shell">{{shell}}</span>
+		<span ng-style="bg_cmd">{{cmd}}</span>
+	</span>	
+	<input id="send" type="text" ng-model="keyType" ng-keydown="$event.which === 13 && action(keyType)" autofocus> </div>
