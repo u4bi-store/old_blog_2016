@@ -73,6 +73,7 @@ function GitPageController($scope, GitPageService) {
 	function parser(path){
 		var q = GitPageService.json(path);
 		q.then(function(data){
+			console.log(data);
 			return data;
 		});
 	}
