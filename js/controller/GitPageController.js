@@ -9,27 +9,29 @@ function GitPageController($scope, GitPageService) {
 		$scope.join = false;
 		$scope.already = '';
  
-		$scope.action = function(keyType){
-			var cmd = keyType;
-			if(cmd == $scope.already) return $scope.keyType ='';
+		$scope.action = function(cmd){
+			var num;
+			if(cmd == $scope.already) return $scope.cmd ='';
 			if(!$scope.join){
-				if(cmd == 'shell') cmdManager(0);
+				if(cmd == 'shell') num=0;
 			}else{
-				if(cmd == 'cd') cmdManager(1);
-				if(cmd == 'exit') cmdManager(2);
-				if(cmd == 'diary') cmdManager(3);
-			} 
-			$scope.keyType ='';
+				if(cmd == 'cd') num=1;
+				if(cmd == 'exit') num=2;
+				if(cmd == 'day') num=3;
+			}
+			cmdManager(num, cmd);
+			$scope.cmd ='';
 		};
 	}
 //----------------------- manager --------------------------
-	function cmdManager(num){
+	function cmdManager(num, cmd){
 		removeAlreadyCMD($scope.already);
+		$scope.already = cmd;
 		switch(num){
 			case 0: shell(); break;
 			case 1: main(); break;
 			case 2: exit(); break;
-			case 3: diary(); break;
+			case 3: day(); break;
 			default :break;
 		}
 	}
@@ -38,39 +40,43 @@ function GitPageController($scope, GitPageService) {
 			$scope.viewNotice = false;
 			$scope.notice = null;
 		}
-		if(cmd == 'diary'){
+		if(cmd == 'day'){
 			$scope.viewDairy = false;
-			$scope.diary  = null;
+			$scope.day  = null;
 		}
 	}
 
 //----------------------- CMD --------------------------
 	function shell(){
-		$scope.already = 'shell';
 		keyModeManager(1);
 		$scope.join = true;
 		notice();
 	}
 	function main(){
-		$scope.already = 'cd';
 		notice();
 	}
 	function exit(){
-		$scope.already = 'exit';
 		keyModeManager(0);
 		$scope.join = false;
 	}
 	function notice(){
 		$scope.viewNotice = true;
-		$scope.notice = GitPageService.notice();	
+		$scope.notice = parser('/config/notice.json');
 	}
-	function diary(){
-		$scope.already = 'diary';
+	function day(){
 		$scope.viewDairy = true;
-		$scope.diary = GitPageService.diary();
+		$scope.day = parser('/day/day1.json');
 	}
 
 //----------------------- stock --------------------------
+
+	function parser(path){
+		var q = GitPageService.json(path);
+		q.then(function(data){
+			return data;
+		});
+	}
+
 	function keyModeManager(type){
 		var key = GitPageService.key();
 		$scope.shell = key.shell[type];
