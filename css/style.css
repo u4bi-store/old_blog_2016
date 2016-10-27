@@ -17,20 +17,18 @@ body {
 	overflow: hidden;
 	background: #000;
 	color: #fff;
-	font-size:10pt;
-	font-weight: bold;
+	font-size:11pt;
 	line-height:200%;
 	font-family:'NanumGothic';
 }
 
 #main-date{
-	font-size:11pt;
 }
 #main-title{
-	font-size:15pt;
+	font-size:11pt;
+	font-weight: bold;
 }
 #main-content{
-	font-size:13pt;
 }
 .main-content-title{
 	color:#AE3DD4;
