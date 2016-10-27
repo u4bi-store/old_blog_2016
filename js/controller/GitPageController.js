@@ -60,20 +60,18 @@ function GitPageController($scope, GitPageService) {
 	}
 	function notice(){
 		$scope.viewNotice = true;
-		$scope.notice = parser('/config/notice.json');
+		GitPageService.json('/config/notice.json').then(function(data){
+			$scope.notice =data;
+		});
 	}
 	function day(){
 		$scope.viewDairy = true;
-		$scope.day = parser('/day/day1.json');
+		GitPageService.json('/day/day1.json').then(function(data){
+			$scope.day =data;
+		});
 	}
 
 //----------------------- stock --------------------------
-
-	function parser(path){
-		GitPageService.json(path).then(function(data){
-			console.log(data);
-		});
-	}
 
 	function keyModeManager(type){
 		var key = GitPageService.key();
