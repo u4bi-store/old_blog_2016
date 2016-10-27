@@ -60,23 +60,24 @@ function GitPageController($scope, GitPageService) {
 	}
 	function notice(){
 		$scope.viewNotice = true;
-		parser('/config/notice.json');
-		$scope.notice = $scope.result;
+		$scope.notice = parser('/config/notice.json');
 	}
 	function day(){
 		$scope.viewDairy = true;
-		parser('/day/day1.json');
-		$scope.day = $scope.result;
+		$scope.day = parser('/day/day1.json');
 	}
 
 //----------------------- stock --------------------------
 
 	function parser(path){
 		var q = GitPageService.json(path);
-		q.then(function(data){
+		var result;
+		q.then(result = function(data){
 			console.log(data);
-			$scope.result = data;
+			return data;
 		});
+		console.log('1');
+		console.log(result);
 	}
 
 	function keyModeManager(type){
