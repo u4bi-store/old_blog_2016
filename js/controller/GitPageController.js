@@ -70,11 +70,10 @@ function GitPageController($scope, GitPageService) {
 //----------------------- stock --------------------------
 
 	function parser(path){
-		GitPageService.json(path).then(result(data));
-
 		var result = function(data){
 			console.log(data);
 		};
+		GitPageService.json(path).then(result(data));
 	}
 
 	function keyModeManager(type){
