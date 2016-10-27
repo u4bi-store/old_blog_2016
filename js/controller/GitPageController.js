@@ -18,7 +18,6 @@ function GitPageController($scope, GitPageService) {
 				if(send.substr(0, 4) == 'day '){
 					var num = send.substr(4, send.length);
 					cmdManager(send, 3, num);
-					console.log(num);
 				}
 			}
 			$scope.send ='';
@@ -69,8 +68,9 @@ function GitPageController($scope, GitPageService) {
 	function day(num){
 		$scope.viewDairy = true;
 		$scope.readDay = parseInt(num);
-		GitPageService.json('/day/day'+num+'.json').then(function(data){
-			console.log(data);
+		var q = GitPageService.json('/day/day'+num+'.json');
+		console.log(q);
+		q.then(function(data){
 			$scope.day =data;
 		});
 	}
