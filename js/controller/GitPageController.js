@@ -70,7 +70,7 @@ function GitPageController($scope, GitPageService) {
 		$scope.viewDairy = true;
 		$scope.readDay = parseInt(num);
 		GitPageService.json('/day/day'+num+'.json').then(function(data){
-			alert(data);
+			console.log(data);
 			$scope.day =data;
 		});
 	}
