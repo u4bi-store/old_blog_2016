@@ -9,28 +9,30 @@ function GitPageController($scope, GitPageService) {
 		$scope.join = false;
 		$scope.already = '';
 		$scope.action = function(send){
-			var num;
 			if(send == $scope.already) return $scope.send ='';
 			if(!$scope.join){
-				if(send == 'shell') num=0;
+				if(send == 'shell') cmdManager(send, 0);
 			}else{
-				if(send == 'cd') num=1;
-				if(send == 'exit') num=2;
-				if(send == 'day') num=3;
+				if(send == 'cd') cmdManager(send, 1);
+				if(send == 'exit') cmdManager(send, 2);
+				if(send.substr(0, 4); == 'day '){
+					var num = send.substr(5, send.length);
+					cmdManager(send, 3, num);
+					console.log(num);
+				}
 			}
-			cmdManager(num, send);
 			$scope.send ='';
 		};
 	}
 //----------------------- manager --------------------------
-	function cmdManager(num, send){
+	function cmdManager(send,type, num){
 		removeAlreadyCMD($scope.already);
 		$scope.already = send;
-		switch(num){
+		switch(type){
 			case 0: shell(); break;
 			case 1: main(); break;
 			case 2: exit(); break;
-			case 3: day(); break;
+			case 3: day(num); break;
 			default :break;
 		}
 	}
@@ -64,9 +66,9 @@ function GitPageController($scope, GitPageService) {
 			$scope.notice =data;
 		});
 	}
-	function day(){
+	function day(num){
 		$scope.viewDairy = true;
-		GitPageService.json('/day/day1.json').then(function(data){
+		GitPageService.json('/day/day'+num+'.json').then(function(data){
 			$scope.day =data;
 		});
 	}
