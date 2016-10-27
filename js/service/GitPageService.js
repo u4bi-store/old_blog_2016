@@ -22,7 +22,7 @@ function GitPageService($http, $q){
 
 	function json(path){
 		var q =$q.defer();
-		$http.get(path).success(function(data){
+		$http.get(path,{header : {'Content-Type' : 'application/json; charset=UTF-8'}}).success(function(data){
 			q.resolve(data);
 		}).error(function(err){
 			q.reject(err);
