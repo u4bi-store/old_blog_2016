@@ -9,7 +9,7 @@ function GitPageController($scope, GitPageService) {
 		$scope.join = false;
 		$scope.already = '';
 		parser('/config/notice.json');
- 
+		parser('/day/day1.json');
 		$scope.action = function(send){
 			var num;
 			if(send == $scope.already) return $scope.send ='';
