@@ -6,11 +6,12 @@
     "min" : 22,
     "title" : "이클립스는 너무 무겁다. 인텔리제이 커뮤니티버전은 웹개발이 안된다.",
     "content" : "에디터 뭘 써야할지 고민중 서브라임이 제일 무난한거같은거 너무 가벼운거같고 웹스톰은 흠.. 이런 느낌? vs코드가 좋았는데 지금은 맥을 안써서 인텔리제이가 좋긴한데 흠 웹개발툴 뭐가 좋을까 고민고민 아 그리고 css 공부 거르지말자 유튜브 강의 괜찮은거 찾은거같은데 강의속도가 빨라서 마음에 쏙 든다.",
-    "til" :    [
-	         ["인텔리제이 관련블로그", "https://github.com/u4bi/TIL/blob/2c70182d50f6163985d2d5111971881913920230/Intellij/Intellij-blog.md"],
-	         ["Envato CSS 유튜브 강의", "https://github.com/u4bi/TIL/blob/f55d9bce80d1464ba6ffd2e2ce8d510baba584bb/CSS/css-youtube-teach.md"],
-	         ["Kotlin이란?", "https://github.com/u4bi/TIL/blob/2c70182d50f6163985d2d5111971881913920230/Kotlin/kotlin-info.md"]
-	     ],
+    "til" :
+        [
+            ["인텔리제이 관련블로그", "https://github.com/u4bi/TIL/blob/2c70182d50f6163985d2d5111971881913920230/Intellij/Intellij-blog.md"],
+            ["Envato CSS 유튜브 강의", "https://github.com/u4bi/TIL/blob/f55d9bce80d1464ba6ffd2e2ce8d510baba584bb/CSS/css-youtube-teach.md"],
+            ["Kotlin이란?", "https://github.com/u4bi/TIL/blob/2c70182d50f6163985d2d5111971881913920230/Kotlin/kotlin-info.md"]
+        ],
     "nice" : "오랜만에 푹자서 기분이 좋다. 뭔가 건강해진 기분으로 일어나 코딩을 시작했다.",
     "bad" : "기존에 쓰던 이클립스는 너무 무거운 느낌.. 개발툴이 뭐가 좋을까 고민고민하다 공부에 진전이 느려지고있음..",
     "imp" : "크롬북 우분투에 개발툴 알맞은거 설정 데탑에도 개발툴 알맞은거 설정 둘다 동일하면 좋을듯 css 강의 거르지말기 기초부터 탄탄히"

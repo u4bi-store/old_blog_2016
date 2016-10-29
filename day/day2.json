@@ -6,11 +6,12 @@
     "min" : 5,
     "title" : "터미널 형식의 깃헙 페이지 일단 기반은 짜놓았다.",
     "content" : "구조를 짜는데 오랜 시간이 걸린것같다. 사실은 1이냐 2냐라는 간소한 차이때문에 뭔가 많은 삽질을 많이한듯.. 그래도 몇가지 배운점도 상당한거같다. 프로미스 ㅇㅅㅇ 프로미스 ㅇㅅㅇ 비동기 큐 처리 방식 생명주기또한 뭔가 삽질을 통해 간소한 팁도 얻어가고.",
-    "til" :    [
-	         ["ES6 무료서적", "https://github.com/u4bi/TIL/blob/a77ee5b6753e31dd8164c2f41dccbfa9605b76e3/JavaScript/es6-book.md"],
-	         ["2016년엔 순수 자바스크립트로 짜는건 어떤가용 굿", "https://github.com/u4bi/TIL/blob/fd29d30e962ef26707d071bb11c28daa088d6e61/JavaScript/vanilla-javascript.md"],
-		 ["앵귤러 비동기처리 최적화", "https://github.com/u4bi/TIL/blob/c99596de57dcd1cf85886bf1255b3dadd94e1fa3/JavaScript/promise-json-async.md"]
-	     ],
+    "til" :
+        [
+            ["ES6 무료서적", "https://github.com/u4bi/TIL/blob/a77ee5b6753e31dd8164c2f41dccbfa9605b76e3/JavaScript/es6-book.md"],
+            ["2016년엔 순수 자바스크립트로 짜는건 어떤가용 굿", "https://github.com/u4bi/TIL/blob/fd29d30e962ef26707d071bb11c28daa088d6e61/JavaScript/vanilla-javascript.md"],
+            ["앵귤러 비동기처리 최적화", "https://github.com/u4bi/TIL/blob/c99596de57dcd1cf85886bf1255b3dadd94e1fa3/JavaScript/promise-json-async.md"]
+        ],
     "nice" : "깃페이지 색깔이 조금씩 나온다.",
     "bad" : "1이 좋냐 2가 좋냐 삽질의 연속",
     "imp" : "꾸준히 뇌컴파일 눈디버깅 연습강도를 높혀보자 요즘 순간적인 건망증들이 자꾸 생긴다 왜그럴까"
