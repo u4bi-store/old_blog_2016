@@ -3,6 +3,7 @@ app.controller('GitPageController', GitPageController);
 function GitPageController($scope, GitPageService) {
 	
 	init();
+
 	function init(){
 		keyModeManager(0);
 		$scope.flag = false;
