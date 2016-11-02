@@ -1,0 +1,18 @@
+{
+    "year" : 2016,
+    "month" : 11,
+    "day" : 2,
+    "hour" : 23,
+    "min" : 55,
+    "title" : "앵귤러2 공부중",
+    "content" : "앵귤러2 활력이 좀 붙어간다.",
+    "til" :
+        [
+            ["앵귤러2 라이프 싸이클 훅", "https://github.com/u4bi/TIL/blob/44aeecfb48033854f49dc0f7700ea7c44d2ac15a/Angular2/angular2-lifecycle-hooks.md"],
+            ["angular2-blog 앵귤러2 블로그", "https://github.com/u4bi/TIL/blob/7d5937b883dc844828d9a1ea59f409cd25a1ba9d/Angular2/angular2-blog.md"],
+            ["NG-Module 관련소식", "https://github.com/u4bi/TIL/blob/3ed47f189e4e042a0315b8149fa18be31c341e74/Angular2/angular2-Ng-Module.md"]            
+        ],
+    "nice" : "앵귤러2 무난히",
+    "bad" : "비효율적인 시간대 활용 잡생각 정신력 흐려짐",
+    "imp" : "공부할때만큼은 잡생각버리고 집중해서 하기."
+}
