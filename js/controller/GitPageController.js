@@ -69,7 +69,8 @@ function GitPageController($scope, GitPageService) {
     }
     function day(num){
         $scope.viewDairy = true;
-        $scope.readDay = parseInt(num);
+        $scope.readDay = num;
+        $scope.readHint = GitPageService.readHint(num);
         GitPageService.json('/day/day'+num+'.json').then(function(data){
             $scope.day =data;
             hintCommand(2);

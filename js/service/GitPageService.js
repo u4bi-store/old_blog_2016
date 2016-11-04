@@ -5,6 +5,7 @@ function GitPageService($http, $q){
         'flag'  : flag,
         'key' : key,
         'json' : json,
+        'readHint' : readHint
     }
 
     function flag(bool){
@@ -28,5 +29,9 @@ function GitPageService($http, $q){
             q.reject(err);
         });
         return q.promise;
+    }
+
+    function readHint(day){
+        return '현재 '+day+'장을 보고 계십니다.';
     }
 }
