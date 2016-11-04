@@ -8,7 +8,8 @@
     "content" : "앵귤러1이 쉬운줄 알았는데 커스텀 디렉티브를 아니 만만하진 않다는걸 알게되었다. 앵귤러1도 생각해보면 매력적인 언어긴하다. 앵귤러2 구조를 몇일간 살피니 이젠 어느정도 느낌이 오기 시작했다. 사람들이 앵귤러2 앵귤러2 거리는 이유를 세삼스레 조금은 알것같다. 앵귤러1처럼 서비스에 얾메이지 않아 좋은거같다. 조금더 공부해야하겠지만 앵귤러 2 crud 구현을 0.5차 목표로 천천히 나아가자. 하루에 0.05씩만 나아가자.",
     "til" :
         [
-            ["HTTP 상태 코드", "https://github.com/u4bi/TIL/blob/ea11c46d6d344ce067c684735573e9dd4edf5822/HTTP/http-state-code.md"]                                                        
+            ["HTTP 상태 코드", "https://github.com/u4bi/TIL/blob/ea11c46d6d344ce067c684735573e9dd4edf5822/HTTP/http-state-code.md"],
+            ["CSS 레이아웃을 배웁시다", "https://github.com/u4bi/TIL/blob/786c091831543a22a4d15ac560216ce028bb3629/CSS/css-layout-teach.md"]                                                        
         ],
     "nice" : "재밌는 영화를 보았다. 브릿지 존스의 일기 1, 123편 모두 볼거다.",
     "bad" : "글쎄",
