@@ -28,7 +28,7 @@ body {
   margin-top: 20px;
 }
 
-#key{
+#dos{
   float : left;
   width:106%;
   height: 90%;
@@ -36,7 +36,7 @@ body {
   overflow-y: scroll;
   background: #2c2c2c;    
 }
-#key-title{ width: 30%; }
+#dos-title{ width: 30%; }
 
 #send{
   border : 0px;

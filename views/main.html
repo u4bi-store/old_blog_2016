@@ -1,19 +1,17 @@
 <div id="terminal">
-  <div ng-show="viewNotice">
-    <div template type="notice"></div>
-  </div>	
-  <div ng-show="viewDairy">
-    <div template type="dairy"></div>
+  <div id="dos">
+    <div ng-show="viewNotice">
+      <div template type="notice"></div>
+    </div>	
+    <div ng-show="viewDairy">
+      <div template type="dairy"></div>
+    </div>
   </div>
-
-  <div id="key">
-    <span id="key-title">
-      <span ng-style="bg_shell">{{shell}}</span>
-      <span ng-style="bg_cmd">{{cmd}}</span>
-    </span>	
-    <input id="send" type="text" ng-model="send" ng-keydown="$event.which === 13 && action(send)" autofocus>
-    <span class="hintStyle" ng-repeat="x in hint">{{x}}<br></span>
-    <span class="hintStyle">{{readHint}}</span>
-  </div>
-
+  <span id="dos-title">
+    <span ng-style="bg_shell">{{shell}}</span>
+    <span ng-style="bg_cmd">{{cmd}}</span>
+  </span>	
+  <input id="send" type="text" ng-model="send" ng-keydown="$event.which === 13 && action(send)" autofocus>
+  <span class="hintStyle" ng-repeat="x in hint">{{x}}<br></span>
+  <span class="hintStyle">{{readHint}}</span>
 </div>
