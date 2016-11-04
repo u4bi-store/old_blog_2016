@@ -40,8 +40,8 @@ body {
   background: #2c2c2c;
 }
 #dos-text{
-  margin: auto;
-  width:95%;
+  width:90%;
+  margin-right: 2%;
 }
 
 #send-title{ width: 30%; line-height:100%;}
