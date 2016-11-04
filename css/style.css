@@ -10,6 +10,10 @@
 
 body {
   background: wheat;
+  font-size: 11;
+  font-weight: bold;
+  line-height:200%;
+  font-family:'NanumGothic';
 }
 
 #main-date{}
