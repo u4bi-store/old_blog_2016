@@ -23,6 +23,9 @@ function GitPageController($scope, GitPageService) {
             }
             $scope.send ='';
         };
+        $scope.sendClick = function(){
+            document.getElementById("terminal-send").focus();
+        };
     }
 //----------------------- manager --------------------------
     function cmdManager(send,type, num){
