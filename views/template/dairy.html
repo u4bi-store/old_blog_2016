@@ -1,6 +1,6 @@
 <span class="dos-content-title" id="dos-title">제 {{readDay}}장 : {{day.title}}<br></span>
-<span id="dos-content">{{day.content}}<br></span>
-<span id="dos-date">{{day.year}}년 {{day.month}}월 {{day.day}}일 {{day.hour}}시 {{day.min}}분 작성<br></span>
+<span >{{day.content}}<br></span>
+<span >{{day.year}}년 {{day.month}}월 {{day.day}}일 {{day.hour}}시 {{day.min}}분 작성<br></span>
 <br>
 <span class="dos-content-title"> * Today I Learned (TIL)<br></span>
 <span ng-repeat="x in day.til"><a ng-href="{{x[1]}}">{{x[0]}}</a><br></span>
