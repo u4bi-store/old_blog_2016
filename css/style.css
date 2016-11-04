@@ -22,6 +22,7 @@ body {
 .main-content-title{color:#709ECC;}
 
 #terminal{
+  float : left;
   width:90%;
   height: 90%;
   position: absolute;
@@ -33,7 +34,6 @@ body {
 }
 
 #dos{
-  float : left;
   width:106%;
   height: 90%;
   color:#e7e7e7;
