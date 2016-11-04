@@ -65,14 +65,14 @@ function GitPageController($scope, GitPageService) {
         GitPageService.json('/config/notice.json').then(function(data){
             $scope.notice =data;
         });
-        hintCommand(0);
+        hintCommand(1);
     }
     function day(num){
         $scope.viewDairy = true;
         $scope.readDay = parseInt(num);
         GitPageService.json('/day/day'+num+'.json').then(function(data){
             $scope.day =data;
-            hintCommand(1);
+            hintCommand(2);
         }, function(reason) {
             cmdManager('exit', 2);
         });
@@ -94,6 +94,7 @@ function GitPageController($scope, GitPageService) {
             case 0:{
                 $scope.bg_shell = {'color': key.style.yellow};
                 $scope.bg_cmd = {'color': key.style.yellow};
+                hintCommand(0);
                 break;
             }
             case 1:{
