@@ -3,7 +3,7 @@
 <span >{{day.year}}년 {{day.month}}월 {{day.day}}일 {{day.hour}}시 {{day.min}}분 작성<br></span>
 <br>
 <span class="dos-content-title"> * Today I Learned (TIL)<br></span>
-<span ng-repeat="x in day.til"><a ng-href="{{x[1]}}">{{x[0]}}</a><br></span>
+<span ng-repeat="x in day.til"><a ng-href="{{x[1]}}" target="_blank">{{x[0]}}</a><br></span>
 <br>
 <span class="dos-content-title"> * 오늘 하루 좋았던점</span><br><span> {{day.nice}}<br></span>
 <span class="dos-content-title"> * 오늘 하루 안좋은점</span><br><span> {{day.bad}}<br></span>
