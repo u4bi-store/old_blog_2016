@@ -1,7 +1,7 @@
 {
     "main" : [
         ["시작 : shell"],
-        ["next command : day [num]",
+        ["next command : day 1~[num]",
         "종료 : exit"],
         ["처음으로 : cd"]
     ]
