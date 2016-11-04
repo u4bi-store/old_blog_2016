@@ -38,9 +38,9 @@ body {
   color:#e7e7e7;
   overflow-y: scroll;
   background: #2c2c2c;
-  margin: auto;
 }
 #dos-text{
+  margin: auto;
   width:90%;
 }
 
