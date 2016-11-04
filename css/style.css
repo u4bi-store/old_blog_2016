@@ -12,7 +12,6 @@ body {
   background: wheat;
   font-size: 11;
   font-weight: bold;
-  line-height:200%;
   font-family:'NanumGothic';
 }
 
@@ -30,6 +29,7 @@ body {
   color: #47804d;
   margin-left: 4%;
   margin-top: 20px;
+  line-height:100%;
 }
 
 #dos{
@@ -38,13 +38,14 @@ body {
   color:#e7e7e7;
   overflow-y: scroll;
   background: #2c2c2c;
+  line-height:200%;
 }
 #dos-text{
   width:90%;
   margin-left: 3%;
 }
 
-#send-title{ width: 30%; line-height:100%;}
+#send-title{ width: 30%;}
 
 #send{
   border : 0px;
@@ -57,5 +58,4 @@ body {
 .hintStyle{
   color: #c2bc97;
   font-size:9pt;
-  line-height:200%;
 }
