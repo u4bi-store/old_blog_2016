@@ -33,13 +33,13 @@ body {
 }
 
 #dos{
-  width:106%;
+  width:107%;
   height: 90%;
   color:#e7e7e7;
   overflow-y: scroll;
   background: #2c2c2c;    
 }
-#dos-title{ width: 30%; }
+#dos-title{ width: 30%; line-height:100%;}
 
 #send{
   border : 0px;
