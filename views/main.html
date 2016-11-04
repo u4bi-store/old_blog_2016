@@ -12,6 +12,7 @@
     <span ng-style="bg_cmd">{{cmd}}</span>
   </span>	
   <input id="send" type="text" ng-model="send" ng-keydown="$event.which === 13 && action(send)" autofocus>
-  <span class="hintStyle" ng-repeat="x in hint">{{x}}<br></span>
+  <br>
+  <span class="hintStyle" ng-repeat="x in hint">{{x}}</span>
   <span class="hintStyle">{{readHint}}</span>
 </div>

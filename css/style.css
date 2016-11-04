@@ -22,7 +22,6 @@ body {
 .main-content-title{color:#709ECC;}
 
 #terminal{
-  float : left;
   width:90%;
   height: 90%;
   position: absolute;
