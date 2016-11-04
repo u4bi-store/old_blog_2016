@@ -33,13 +33,17 @@ body {
 }
 
 #dos{
-  width:106%;
+  width:107%;
   height: 90%;
   color:#e7e7e7;
   overflow-y: scroll;
   background: #2c2c2c;    
 }
-#dos-title{ width: 30%; line-height:100%;}
+#dos-text{
+  width:90%;
+}
+
+#send-title{ width: 30%; line-height:100%;}
 
 #send{
   border : 0px;
@@ -52,5 +56,5 @@ body {
 .hintStyle{
   color: #c2bc97;
   font-size:9pt;
-  line-height:100%;
+  line-height:200%;
 }

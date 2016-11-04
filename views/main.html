@@ -1,13 +1,15 @@
 <div id="terminal">
   <div id="dos">
-    <div ng-show="viewNotice">
-      <div template type="notice"></div>
-    </div>	
-    <div ng-show="viewDairy">
-      <div template type="dairy"></div>
+    <div id="dos-text">
+      <div ng-show="viewNotice">
+        <div template type="notice"></div>
+      </div>
+      <div ng-show="viewDairy">
+        <div template type="dairy"></div>
+      </div>
     </div>
   </div>
-  <span id="dos-title">
+  <span id="send-title">
     <span ng-style="bg_shell">{{shell}}</span>
     <span ng-style="bg_cmd">{{cmd}}</span>
   </span>	
