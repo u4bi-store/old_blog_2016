@@ -65,12 +65,14 @@ function GitPageController($scope, GitPageService) {
         GitPageService.json('/config/notice.json').then(function(data){
             $scope.notice =data;
         });
+        hintCommand(0);
     }
     function day(num){
         $scope.viewDairy = true;
         $scope.readDay = parseInt(num);
         GitPageService.json('/day/day'+num+'.json').then(function(data){
             $scope.day =data;
+            hintCommand(1);
         }, function(reason) {
             cmdManager('exit', 2);
         });
@@ -78,6 +80,12 @@ function GitPageController($scope, GitPageService) {
 
 //----------------------- stock --------------------------
 
+    function hintCommand(type){
+        GitPageService.json('/config/hint.json').then(function(data){
+            $scope.hint =data.main[type];
+        });
+    }
+    
     function keyModeManager(type){
         var key = GitPageService.key();
         $scope.shell = key.shell[type];
