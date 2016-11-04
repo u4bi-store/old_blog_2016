@@ -44,6 +44,7 @@ function GitPageController($scope, GitPageService) {
         if(already.substr(0, 4) == 'day '){
             $scope.viewDairy = false;
             $scope.day  = null;
+            $scope.readHint =null;
         }
     }
 
