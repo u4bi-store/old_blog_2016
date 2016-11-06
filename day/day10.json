@@ -1,0 +1,16 @@
+{
+    "year" : 2016,
+    "month" : 11,
+    "day" : 5,
+    "hour" : 23,
+    "min" : 56,
+    "title" : "css의 중요성",
+    "content" : "css는 무엇보다도 중요하다.",
+    "til" :
+        [
+            ["CSS 레이아웃을 배웁시다", "https://github.com/u4bi/TIL/blob/786c091831543a22a4d15ac560216ce028bb3629/CSS/css-layout-teach.md"]                                                        
+        ],
+    "nice" : "항상 즐거울순 없는거같다",
+    "bad" : "공허함",
+    "imp" : "모르겠다"
+}
