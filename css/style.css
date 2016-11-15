@@ -12,7 +12,8 @@
 * body
 ****/
 body {
-  background: wheat;
+  background: url('../img/backg.jpg') center;
+  background-size:cover;
   font-size: 11;
   font-weight: bold;
   font-family:'NanumGothic';
