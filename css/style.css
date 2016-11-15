@@ -12,10 +12,18 @@
 * body
 ****/
 body {
+}
+
+/***
+* main
+****/
+#main{
   background: wheat;
   font-size: 11;
   font-weight: bold;
   font-family:'NanumGothic';
+  box-shadow : rgba(0,0,0,0.5) 0 0 0 9999px;
+  z-index : 100;
 }
 
 /***
