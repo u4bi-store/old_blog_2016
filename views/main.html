@@ -1,22 +1,20 @@
-<div class="mainBlur">
-  <div id="terminal" ng-click="sendClick()">
-    <div id="dos">
-      <div id="dos-text">
-        <div ng-show="viewNotice">
-          <div template type="notice"></div>
-        </div>
-        <div ng-show="viewDairy">
-          <div template type="dairy"></div>
-        </div>
+<div id="terminal" ng-click="sendClick()">
+  <div id="dos">
+    <div id="dos-text">
+      <div ng-show="viewNotice">
+        <div template type="notice"></div>
+      </div>
+      <div ng-show="viewDairy">
+        <div template type="dairy"></div>
       </div>
     </div>
-    <span id="terminal-send-title">
-      <span ng-style="bg_shell">{{shell}}</span>
-      <span ng-style="bg_cmd">{{cmd}}</span>
-    </span>	
-    <input id="terminal-send" type="text" ng-model="send" ng-keydown="$event.which === 13 && action(send)" autofocus>
-    <br>
-    <span class="terminal-hint" ng-repeat="x in hint">{{x}}&nbsp</span>
-    <span class="terminal-hint">{{readHint}}</span>
   </div>
+  <span id="terminal-send-title">
+    <span ng-style="bg_shell">{{shell}}</span>
+    <span ng-style="bg_cmd">{{cmd}}</span>
+  </span>	
+  <input id="terminal-send" type="text" ng-model="send" ng-keydown="$event.which === 13 && action(send)" autofocus>
+  <br>
+  <span class="terminal-hint" ng-repeat="x in hint">{{x}}&nbsp</span>
+  <span class="terminal-hint">{{readHint}}</span>
 </div>
