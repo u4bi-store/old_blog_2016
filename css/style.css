@@ -19,26 +19,6 @@ body {
 }
 
 /***
-* mainBlur
-****/
-.mainBlur:before {
-  content: '';
-  position: absolute;
-  top: 0; left:0; right:0; bottom:0;
-  background: inherit;
-  z-index:-1;
-  filter: blur(5px); 
-  -webkit-filter: blur(6px); 
-  -moz-filter: blur(6px);
-  -o-filter: blur(6px);
-  -ms-filter: blur(6px);
-  filter: url(#blur);
-}
-svg {
-	height:0
-}
-
-/***
 * terminal
 ****/
 #terminal{
@@ -51,6 +31,10 @@ svg {
   margin-left: 4%;
   margin-top: 20px;
   line-height:100%;
+  opacity : 0.6;
+  filter: alpha(opacity=60);
+  -moz-opacity:0.6;
+  -khtml-opacity: 0.6;
 }
 
 /***
