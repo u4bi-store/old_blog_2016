@@ -26,15 +26,11 @@ body {
   height: 90%;
   position: absolute;
   overflow: hidden;
-  background: #2c2c2c;
   color: #47804d;
   margin-left: 4%;
   margin-top: 20px;
   line-height:100%;
-  opacity : 0.6;
-  filter: alpha(opacity=60);
-  -moz-opacity:0.6;
-  -khtml-opacity: 0.6;
+  background-color: rgba(0,0,0,.6);
 }
 
 /***
@@ -63,6 +59,5 @@ body {
   height: 90%;
   color:#e7e7e7;
   overflow-y: scroll;
-  background: #2c2c2c;
   line-height:200%;
 }
