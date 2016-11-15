@@ -12,8 +12,7 @@
 * body
 ****/
 body {
-  background: url('../img/backg.jpg') center;
-  background-size:cover;
+  background: url(https://unsplash.it/1920/1080/?random) no-repeat fixed 0 0 / cover;
   font-size: 11;
   font-weight: bold;
   font-family:'NanumGothic';
