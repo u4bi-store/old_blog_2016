@@ -10,9 +10,10 @@
 
 /***
 * body
+https://unsplash.it/1920/1080/?random&blur
 ****/
 body {
-  background: url(https://unsplash.it/1920/1080/?random&blur) no-repeat fixed 0 0 / cover;
+  background: url(https://petergaunt.files.wordpress.com/2012/05/downtown_02.jpg) no-repeat fixed 0 0 / cover;
   font-size: 11;
   font-weight: bold;
   font-family:'NanumGothic';
