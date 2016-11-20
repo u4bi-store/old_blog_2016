@@ -1,0 +1,17 @@
+{
+    "year" : 2016,
+    "month" : 11,
+    "day" : 20,
+    "hour" : 19,
+    "min" : 28,
+    "title" : "u4bi.com 리뉴얼 기반 끝",
+    "content" : "u4bi.com 프로필용 웹사이트 기반은 다 끝나가는듯하다 배웠던 css적인 요소들도 복습하는 계기가 되었고 앵귤러1도 설계만 잘해놓으면 쓸만하긴 한거같다 차차 이제 중앙단에 붙을 게임 모듈들 하나씩 구성해서 넣어볼 생각이다. 역시 웹의 꽃 끝판왕은 css였다...",
+    "til" :
+        [
+          ["CANVAS 게임 가이드라인 튜토리얼","https://github.com/u4bi/TIL/blob/c25d039334323ce0eef4ce44ad7864a11ee5b4a1/Canvas/canvas-game-tuto.md"],
+          ["월요일 2시까지 Code School 전 강의 무료 앵귤러2 등등등 2016.11.21 오후2시까지", "https://github.com/u4bi/TIL/blob/dc6802cb2df9fdade8704be3b40932c3eccd989f/Angular2/angular2-code-school-teach.md"]
+        ],
+    "nice" : "u4bi.com 리뉴얼 완료",
+    "bad" : "없음.. ",
+    "imp" : "앵귤러2 내일 오후2시까지 무료강의 열리는거 최대한 빠르게 습득 코드스쿨"
+}
