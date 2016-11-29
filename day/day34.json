@@ -1,0 +1,17 @@
+{
+    "year" : 2016,
+    "month" : 11,
+    "day" : 29,
+    "hour" : 20,
+    "min" : 3,
+    "title" : "반응형 캔버스",
+    "content" : "html은 역시 html 그냥 기본 이론따라 만들면 되었다. div처럼 w3s와 mozilla는 양대산맥인거같다. 아낌없이 배푼다.. 그래서 너무 잘배웠다. 캔버스에 대해서 좀 더 복습을 하는 시간이였다. 캔버스에 대해서는 조금만 더 파보고 u4bi.com에 게임 모듈 하나 추가한다음 다음 과정으로 넘어가볼 생각이다.",
+    "til" :
+    [
+      ["CORS 크로스 도메인 이슈", "https://github.com/u4bi/TIL/blob/09adc5070954eddafc538e061ff75b3d59c2aa68/HTTP/http-cors-issue.md"],
+      ["CANVAS 기초 강좌", "https://github.com/u4bi/TIL/blob/0bd8628608db276e4ab0444de5264f2bb7189ad1/Canvas/canvas-basic-tuto.md"]
+    ],
+    "nice" : "캔버스 복습의 날 알찬하루",
+    "bad" : "허리가 아프다 오늘은 ",
+    "imp" : "캔버스에 대해서 조금 더 알아보기 기초적인거 다시 탄탄하게 익혀보자"
+}
