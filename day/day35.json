@@ -1,0 +1,20 @@
+{
+    "year" : 2016,
+    "month" : 11,
+    "day" : 30,
+    "hour" : 23,
+    "min" : 42,
+    "title" : "캔버스 프레임워크",
+    "content" : "캔버스 프레임워크에 대해서 파보았다. 캔버스만으로 만드는건 내가 생각해봐도 로우레벨적인 난이도라 생각된다. 너무 오래 걸린다. 그렇다고해서 프레임워크로 바로 들어가는 것도 좋지 않은 선택으로 생각된다. 캔버스만으로 무언가 결과물을 만들어본 후 어떠한 구조로 설계가 되고 돌아가는지 라이프 싸이클을 아는게 무엇을 배우던간에 제일 핵심이자 기본이라 생각된다. 프레임워크를 쓰면 역시 개발이 빠르고 편하다. 그리고 안정적이고 부드럽다. 캔버스 프레임워크 뭔가 좋으면서도 좀 씁쓸한 기분.. ",
+    "til" :
+    [
+      ["Phaser Canvas 2D게임엔진 프레임워크", "https://github.com/u4bi/TIL/blob/3a0a81bd539acfac7074c826a459f3d9c5c76868/Phaser/Phaser.js-framework.md"],
+      ["Phaser.js Mozilla 게임 튜토리얼", "https://github.com/u4bi/TIL/blob/b84615b594c6afdaa37b79ff90005e3dd556f202/Phaser/Phaser.js-game-tuto.md"],
+      ["PixiJS 튜토리얼 모음", "https://github.com/u4bi/TIL/blob/c0690ea4fdb0110293ab95bb77430bd1c50a3095/Pixi.js/pixi.js-community-tuto.md"],
+      ["웹 개발시 저지르는 실수들", "https://github.com/u4bi/TIL/blob/1ae7a866144d4c7858b7b84e912f9f4459238019/HTML/html-web-dev-mistake.md"],
+      ["CSS 드로잉 튜토리얼", "https://github.com/u4bi/TIL/blob/505558248b2252b5f12d607a421c8d9991eeee5d/CSS/css-drawing-tuto.md"]
+    ],
+    "nice" : "Phaser.js의 흐름과 감을 익혀서 기분이 좋다.",
+    "bad" : "잠이 너무 부족한 기분이다. 몸이 갈수록 나빠져가는 기분 조금씩 조금씩 몸으로 느끼고 있어 걱정이다.",
+    "imp" : "곧 캔버스 마무리"
+}
