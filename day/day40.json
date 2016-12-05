@@ -1,0 +1,17 @@
+{
+    "year" : 2016,
+    "month" : 12,
+    "day" : 5,
+    "hour" : 23,
+    "min" : 31,
+    "title" : "three.js 겉핥기로 하던거 기초부터 탄탄하게 배우기 위해 다시 시작",
+    "content" : "three.js 할때마다 너무 들뜬다. 너무 재밌다. 최근에 css 공부하면서 들뜬 마음정도로 오늘 공부는 매우 재밌었다. 전에는 three.js 멋모르고 했던터라 어려움의 연속의 연속을 달렸기에 도중에 하차하는 모습을 보였다. 지금은 그래도 canvas에 대한 선행 지식이 좀 되어있으니 three.js에 재입문하는데 있어서 큰 어려움이 없는거같다. 즉 three.js 그렇게 어렵지만은 않은 프레임워크다. 역시 기본이 중요하다. 기본. 기본만 제대로 알면 어떠한 프레임워크를 배우던간에 쉽게 접할 수 있는거 같다.",
+    "til" :
+    [
+        ["Three.js 기본적인 렌더링 튜토리얼","https://github.com/u4bi/TIL/blob/ce3b15f6bdcb8035877703bc1b37e4af7c1dd0d3/Three.js/three.js-basic-tuto.md"],
+        ["CSS 가운데(중앙) 정렬","https://github.com/u4bi/TIL/blob/2529c62bca885619e2f873e0f6976e180b4f3791/CSS/css-center-sort.md"]
+    ],
+    "nice" : "넘지못했던 three.js의 벽을 넘어선 날",
+    "bad" : "three.js에 기본기만 쓰윽 보려다 맛들려서 버려서 고민",
+    "imp" : "three.js 몇일간 파볼 생각이고 게임 하나 만들고 자료구조로 다시 넘어갈꺼다."
+}
