@@ -1,0 +1,16 @@
+{
+    "year" : 2016,
+    "month" : 12,
+    "day" : 17,
+    "hour" : 23,
+    "min" : 41,
+    "title" : "아이오닉2와 조금은 친해진 기분",
+    "content" : "역시 일단 뭔가 많은 예제를 해보고 파보아봐야 빠르게 습득할 수 있는 것 같다. 그냥 이론적으로 이건 어떠니하는거보단 역시 직접 해보고 이런거구나하고 느끼는게 더 빠르고 정확한법. 아이오닉2 그냥 웹이라 생각하면안된다. 역시 네이티브는 네이티브. 안드로이드 개발할 때처럼 개발하는 마인드를 가지고 임하니 한결 이해하기도 쉬워지고 편해진 기분. ",
+    "til" :[
+      ["Ionic2 유튜브 60분 앱만들기 튜토리얼 강좌","https://github.com/u4bi/TIL/blob/95a317eaf5fedd173633802cbc10ca2bbfd1ff03/Ionic2/ionic2_youtube--60min-app-tuto.md"],
+      ["Angular2 유튜브 60분 튜토리얼 강좌","https://github.com/u4bi/TIL/blob/bde40e59d764f068bc8da10fd7e15d833122cdf4/Angular2/angular2_youtube--60min-tuto.md"]
+    ],
+    "nice" : "아이오닉2 재밌음",
+    "bad" : "여드름이 부쩍 올라온다. 관리좀 해야겠다.",
+    "imp" : "앵귤러2도 좀 다시 흝고 css도 좀 흝고 자바 디자인패턴 몇개좀 볼 생각"
+}
