@@ -1,8 +1,0 @@
-{
-    "main" : [
-        ["시작 : shell"],
-        ["next command : day [num]",
-        "종료 : exit"],
-        ["처음으로 : cd"]
-    ]
-}
