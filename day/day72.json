@@ -1,0 +1,16 @@
+{
+    "year" : 2017,
+    "month" : 1,
+    "day" : 7,
+    "hour" : 21,
+    "min" : 1,
+    "title" : "Firebaes 데이터베이스",
+    "content" : "파이어베이스 굿굿 역시 요즘은 클라우드가 대세. 라이엇js에 파이어베이스는 은근 쿵짝이 잘맞는 조합이라고 생각된다. 만족스러운 결과. 파이어베이스 아이오닉2에만 써봤지 실질적으로 써본적은 없었고 초반에 적용하는데 있어서 좀 헤매긴 했지만 어느정도 보면서 찾아보니 Firebase 데이터베이스의 본질적인 흐름은 이해할 수 있어 다행이다. 파이어베이스 검색 쿼리에 대해서는 추후 기회가 되면 심도있게 공부해보고싶은 마음이 들기도 했다.",
+    "til" :[
+      ["Firebase 웹에서 시작하기 가이드","https://github.com/u4bi/TIL/blob/34306ae0747f7e50fbbc5b570bad61a36ed8d4fa/Firebase/firebase-get-started-web.md"],
+      ["Firebase 검색 튜토리얼","https://github.com/u4bi/TIL/blob/8271a4fc364a03fe836c0a226845ba5cda0f4787/Firebase/firebase-search-tuto.md"]
+    ],
+    "nice" : "파이어베이스 흐름파악",
+    "bad" : "없음",
+    "imp" : "라이엇js의 퍼포먼스들 파악하기"
+}
