@@ -1,0 +1,19 @@
+{
+    "year" : 2017,
+    "month" : 1,
+    "day" : 24,
+    "hour" : 21,
+    "min" : 44,
+    "title" : "구글 익스텐션 확장 프로그램",
+    "content" : "오늘은 전부터 한번은 해보고 싶었던 구글 익스텐션에 대해서 알아봤다. 구글 포럼에 API와 예제가 상당히 많아 입문을 하는데 어려움이 없었고 매우 간단한 기능들로 눈에 돋보이는 퍼포먼스를 보일 수 있어 상당히 재밌게 접할 수 있는 점이 다행이다. 얼마동안 구글 익스텐션을 공부하고 하나의 작은 프로젝트를 하나 만들어보는 시간을 보낼거다. 마지막 목표는 확장 프로그램으로 접속이 가능한 웹 접속기를 만드는 것으로 마무리 지을 생각이다. 하지만 기회가 안된다면 언젠가 이글을 다시 보고 만들 수 있도록하는 바램으로 가보자.",
+    "til" :[
+      ["CLI 환경에서 c++ 컴파일","https://github.com/u4bi/TIL/blob/80ebe67eacc85708881cea842fdbe0020d991973/CPP/cpp.cli.compile.md"],
+      ["쿠키와 세션에 대해 알아보자","https://github.com/u4bi/TIL/blob/1fb14e7a24dfba5af912c67ce46679a24c453c21/HTTP/http.cookie_session.md"],
+      ["크롬 익스텐션 Getting Started 튜토리얼","https://github.com/u4bi/TIL/blob/0ee74006e9ea170cef8e7e10cd1b934a3bfeb102/Chrome-extension/chrome-extensions-getting-started-tuto.md"],
+      ["크롬 익스텐션 유튜브 튜토리얼","https://github.com/u4bi/TIL/blob/b052981d464ea7f14cafd7f34f04417ecf1bebbf/Chrome-extension/chrome-extensions-youtube-tuto.md"],
+      ["크롬 익스텐션 가이드 예제모음","https://github.com/u4bi/TIL/blob/64e4584fb8c9f776561de01f68a90d58c2a77762/Chrome-extension/chrome-extensions-example-guide.md"]
+    ],
+    "nice" : "크롬 익스텐션 개발",
+    "bad" : "없다",
+    "imp" : "익스텐션 파보면서 짬내서 디자인 패턴 흐름도 익히기"
+}
