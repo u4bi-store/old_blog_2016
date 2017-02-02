@@ -62,3 +62,7 @@ body {
   overflow-y: scroll;
   line-height:200%;
 }
+
+a{
+  color:#00ff00;
+}
