@@ -104,7 +104,7 @@ function GitPageController($scope, GitPageService) {
             }
             case 1:{
                 $scope.bg_shell = {'color': key.style.green};
-                $scope.bg_cmd = {'color': key.style.blue};
+                $scope.bg_cmd = {'color': key.style.green};
                 break;			
             }
             default: break;

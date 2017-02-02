@@ -12,7 +12,8 @@
 * body
 ****/
 body {
-  background: url('../images/back_0.jpg') no-repeat fixed 0 0 / cover;
+  /* background:#000; */
+  background: url('../images/back_1.jpg') no-repeat fixed 0 0 / cover;
   font-size: 11;
   font-weight: bold;
   font-family:'NanumGothic';

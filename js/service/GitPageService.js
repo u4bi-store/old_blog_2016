@@ -16,7 +16,7 @@ function GitPageService($http, $q){
         var keyArray = {
             shell : ['u4bi','u4bi@localhost'],
             cmd   : ['> ',' / $ '],
-            style : { yellow : '#FFFF00', green  : '#47804d', blue   : '#709ECC'}
+            style : { yellow : '#FFFF00', green  : '#00ff00'}
         };
         return keyArray; 
     }
