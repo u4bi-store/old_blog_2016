@@ -63,6 +63,23 @@ body {
   line-height:200%;
 }
 
+.item{
+  position:fixed;
+  width: 70%;
+  height:5rem;
+  background-color: rgba(192, 192, 192, 0.7);
+  left: 15%;
+  bottom:-7px;
+  border-radius: 10px;
+}
+.item img{
+  width:40px;
+  height:40px;
+  margin-left:5%;
+  margin-top:2px;
+  cursor:pointer;
+}
+
 a{
   color:#fff;
 }
