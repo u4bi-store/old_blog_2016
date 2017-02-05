@@ -1,0 +1,18 @@
+{
+    "year" : 2017,
+    "month" : 2,
+    "day" : 4,
+    "hour" : 23,
+    "min" : 32,
+    "title" : "크롬북에 리눅스 재설치 및 개발환경 조성",
+    "content" : "이전에 리눅스를 설치할때는 상당히 헤메는 부분이 많고 오래걸렸지만 그때 몇가지들을 원노트에 메모를 해놨기에 그래도 조금이나마 헤메는 수고를 덜수 있었다. 하지만 그날도 노트에 필기할때 헤메면서 몇가지를 누락시키고 적었기에 좀 해매긴 했지만 이번에 제대로된 설치 가이드를 알게되고 작성할 수 있어 다행으로 생각한다. 따라서 가이드 형식으로 만들어 웹에 배포를 할 생각이다. 그러면서 자연스럽게 크롬북 사용자 모임 그룹도 알릴 수 있고 좋은 방법으로 생각한다. ",
+    "til" :[
+      ["우분투에 아파치2 설치부터 실행까지","https://github.com/u4bi/TIL/blob/306d3eda086647cc1cbd4ca436e9f5dde32ba4c6/Server/server-ubuntu-apache2-install.md"],
+      ["우분투 아파치 웹 서버 기본 포트 변경","https://github.com/u4bi/TIL/blob/9755f7f44098e656e559112b8a44c30a8f518508/Server/server-ubuntu-apache2-default-port-setup.md"],
+      ["리눅스 퍼미션 권한 조정","https://github.com/u4bi/TIL/blob/14ee9455e7bfd0fc1b82810181109eec45a2ba4d/Linux/linux-permission-setup.md"],
+      ["php-slim 프레임워크로 RESTful-API 구현 튜토리얼","https://github.com/u4bi/TIL/commit/f7814842272b47499c7c8bb089f42049e2183e4b"]
+    ],
+    "nice" : "크롬북 서버환경 조성",
+    "bad" : "없다.",
+    "imp" : "php 백단 레스트풀 재학습"
+}
