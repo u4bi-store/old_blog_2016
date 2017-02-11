@@ -1,0 +1,17 @@
+{
+    "year" : 2017,
+    "month" : 2,
+    "day" : 9,
+    "hour" : 23,
+    "min" : 9,
+    "title" : "파이어 베이스 뷰단 렌더링완료",
+    "content" : "개발기술은 앵귤러 2로 잡았다. UI 프레임워크 여러가지 있었지만 앵귤러2를 쓴다면 머티리얼 2 라이브러리를 쓰는게 좋지 않을까 하여 머티리얼2를 사용했다. 머리리얼2는 앵귤러2를 대상으로 지원하는 UI 라이브러리다. 기능도 매우 다양하고 아이오닉2처럼 이쁘게 각을 잘 잡아줘서 좋다. 일단 기획 없이 개발을 했음에도 수월하게 개발이 되고 있어서 정말로 다행으로 생각한다. 전부터 항상 이렇게 발전시켜보고싶어서 그런가. 기획을 이미 다 잡아놓은거처럼 빠르게 진행이 되고 있어서 좀 놀라웠다.",
+    "til" :[
+      ["Material2 시작하기", "https://github.com/u4bi/TIL/blob/0dcd4ad769cfcd9f0db7e29552d50c747cbd66da/Material2/material2-getting-started.md"],
+      ["Material2 아이콘 목록", "https://github.com/u4bi/TIL/blob/770c88fcd5660d6e3ef93d272b911289082dabbf/Material2/material2-icons.md"],
+      ["Material2 색상 목록", "https://github.com/u4bi/TIL/blob/e1677dd75b1587065b63b7814aedcad110a47bdc/Material2/material2-palette-color.md"]
+    ],
+    "nice" : "오버워치 샷감 웹 뷰단 렌더링",
+    "bad" : "없음",
+    "imp" : "뷰단 마저 완성후 파이어베이스 연동시키고 기능 추가하기"
+}
