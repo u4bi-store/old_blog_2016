@@ -1,0 +1,17 @@
+{
+    "year" : 2017,
+    "month" : 2,
+    "day" : 10,
+    "hour" : 23,
+    "min" : 9,
+    "title" : "파이어 베이스 앵귤러2에서의 백앤드 기능들",
+    "content" : "일반 js와는 다르게 앵귤러2에서의 메서드들은 살짝살짝 달라 일반적으로 접근하는데 있어서는 좀 어려운 편이 있는거같다. 그래서 구글링을 하기 일수 그래도 괜찮은 동영상 강의를 찾게되었고 이를 통해서 원할하게 접근할 수 있어서 다행으로 생각한다. 나는 책보단 동영상 동영상 보단 직접하는걸 우선시하고 이방법이 나에겐 그래도 제일 효과적인 방법이라고 생각된다. 자기 자신에게 맞는 공부법이 있다고 하는데 누구는 책을 보고 누구는 직접하며 누구누는 동영상을 보면서 각자에게 맞는 공부방법으로 공부를 하는 것이 제일 중요한거 같다고 생각한다. 항상 느끼지만 영어를 잘했으면 좋았을거같다. 그러면 내가 좀 더 큰 물에서 놀 수 있었는데하는 아쉬움이 크다. 그래서 영어를 배울거다. 내 신조 모르면 배우면 되는거다. 근데 아직 할게 몇가지 남아서 영어는 차근차근 배워나가볼 생각이다. 뭔가 마음이 금방 배울것만 같은 느낌이 드는데 아마도 정말 금방배울 수 있을거 같은 생각이 들기 때문이다. 그 생각이 드는 이유는 아마 내 마음이 불안하지 않아서? 왜냐면 내 마음이 불안하지 않으면 항상 일이 잘되어 왔기 때문에.",
+    "til" :[
+      ["Angular2-CLI Firebase-Database 연동 유튜브 튜토리얼", "https://github.com/u4bi/TIL/blob/fd11263462aa8a72bae7294ae5e4d564f68a8e8e/Angular2/angular2-ang2cli-firebase-auth.md"],
+      ["Angular2-CLI Firebase-Hosting 빌드 유튜브 튜토리얼", "https://github.com/u4bi/TIL/blob/a6423330d5d522bcba4d3028848ec068012a64a9/Angular2/angular2-ang2cli-firebase-hosting.md"],
+      ["Angular2-CLI Firebase Auth 연동 튜토리얼", "https://github.com/u4bi/TIL/blob/fc30b9d61e8bfe6af73f339ad34eeb196bf44a3b/Angular2/angular2-ang2cli-firebase-database.md"]
+    ],
+    "nice" : "앵귤러2 파이어베이스 백앤드 연동 수월히",
+    "bad" : "없음",
+    "imp" : "백 활용하여 완성하기"
+}
