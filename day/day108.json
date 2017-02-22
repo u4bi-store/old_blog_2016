@@ -1,0 +1,15 @@
+{
+    "year" : 2017,
+    "month" : 2,
+    "day" : 22,
+    "hour" : 23,
+    "min" : 55,
+    "title" : "three.js 공부",
+    "content" : "three.js의 기본에 대해서 집중적으로 파봐야겠다는 생각이 들었다. 일단 three.js는 예전부터 많은 관심을 가지고 있었던 라이브러리로써 어느정도 감은 잡았지만 그래도 기본에 충실하잔 의미로 기본기에 대해서 여러가지 파볼 생각이다. three.js를 css 다루듯 하는 날이 얼마지나 왔으면 좋겠다. css에 대해서 공부하고자 했던 날처럼",
+    "til" :[
+        ["PHP 마이크로 프레임워크 : Slim VS Lumen 비교","https://github.com/u4bi/TIL/blob/59abe3a41b10bfeca9a952b9ac667fdd60bf75bc/Slim/slim-slim_vs_lumen.md"]
+    ],
+    "nice" : "재미를 위해 three.js를 배웠지만 어느세 보니 three.js에 대한 감이 잡혀있어 좋았음",
+    "bad" : "없음 없음",
+    "imp" : "three.js에 대해서 기본기 제대로 다져보기 개인공부시간에는 three.js에 대해 집중 조명"
+}
