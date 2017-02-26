@@ -1,0 +1,19 @@
+{
+    "year" : 2017,
+    "month" : 2,
+    "day" : 26,
+    "hour" : 	23,
+    "min" : 2,
+    "title" : "주말 디자인 패턴 공부 그리고 UI라이브러리에 대해서 눈여겨본 날",
+    "content" : "디자인 패턴책 이대로라면 한달이내는 다 읽을 수 있을것 같다. 그리고 생각외로 책이 좋은건지 내가 관심두고 봐서 그런건지 눈에도 머리에도 잘 들어오는 기분. 정말 잘 고른 책인 기분. UI라이브러리에 대해서 몇가지 찾아봤고 내가 원하는 바에 따른 라이브러리를 몇개 찾아봤다. 일단 내가 원하는건 화려한 퍼포먼스 그리고 퍼포먼스 그리고 이펙트.. 미래적인 현대적이고 화려한.. 결론은 화려한 퍼포먼스를 보여줄 수 있는 UI 라이브러리를 찾는다. Effeckt css에 대해서 좀 눈여겨보고 써볼 생각을 가지고 있다. 요즘 생각든게 UI라이브러리를 집중적으로 조명하면서 찾아보고 활용해봐야겠다는 생각이 든다. Flat도 정말 괜찮은데 정말 이쁘다. 근데 라이센스 문제가 걸려있으니 좀 아쉽긴 하지만. Flat은 정말 이쁘다. 눈독들여질 만큼.. 해당 UI 프레임워크에 대해서 좀더 파악해본 후 정말 이거다 싶으면 사볼까도 생각중이다. 정말 이쁘기에. 암튼 Effeckt css에 대해서 활용할 수 있는 부분이 있다면 활용을 해보고자 한다.",
+    "til" :[
+      ["Flat UI 프레임워크","https://github.com/u4bi/TIL/blob/f2ef36493c146595c9731d19ee7a65e0964e9e22/CSS/css-flat-framework.md"],
+      ["Skeleton UI 프레임워크","https://github.com/u4bi/TIL/blob/056c4c6e5f58707e2bd1d3b2ae517aff6793a46e/CSS/css-skeleton-framework.md"],
+      ["Effeckt CSS 애니메이션 라이브러리","https://github.com/u4bi/TIL/blob/68de82a62d5edb1c1faa336aa295989eae5ab5e9/CSS/css-effeckt-library.md"],
+      ["CSSDB.co UI라이브러리, 프레임워크 모음 사이트","https://github.com/u4bi/TIL/blob/a8bce389fa81242427315d539c7f8ecb1aa37923/CSS/css-css-database.md"],
+      ["캔버스 2d 라이브러리 Konva","https://github.com/u4bi/TIL/blob/1c5a983d8cd8d60548ff1458aa2863da3094c67d/Canvas/canvas-2d-library-konva.md"]
+    ],
+    "nice" : "패턴책 읽으면 읽을수록 경험치가 올라가는게 느껴지는 기분.. 책을 읽는것에도 시기가 있는데 지금이 딱 알맞는 시기라 읽는대로 받아들여지는 기분이들어 좋다.",
+    "bad" : "없음",
+    "imp" : "Effeckt css에 대한 활용점 파악하기"
+}
