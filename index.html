@@ -1,30 +1,27 @@
 <!DOCTYPE html>
-
-<HTML ng-app="GitPage">
+<html ng-app="GitPage">
   
-  <HEAD>
+  <head>
     
-    <META charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
     
-    <LINK href="https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css" rel="stylesheet" type="text/css">
-    <LINK rel="stylesheet" href="css/style.css"/>
+    <link href="https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css"/>
     
-  </HEAD>
+  </head>
 
-  <BODY ng-controller="GitPageController">
+  <body ng-controller="GitPageController">
     
-    <SCRIPT src="lib/angular.min.js"></SCRIPT>
+    <script src="lib/angular.min.js"></script>
+    <script src="src/app.js"></script>
+
+    <script src="src/directive/GitPageDirective.js"></script>
     
-    <SCRIPT src="src/app.js"></SCRIPT>
-
-    <SCRIPT src="src/directive/GitPageDirective.js"></SCRIPT>
-
-    <SCRIPT src="src/service/GitPageService.js"></SCRIPT>
+    <script src="src/service/GitPageService.js"></script>
     
-    <SCRIPT src="src/controller/GitPageController.js"></SCRIPT>
+    <script src="src/controller/GitPageController.js"></script>
     
-    <DIV layout type="main"></DIV>
+    <div layout type="main"></div>
 
-  </BODY>
-
-</HTML>
+  </body>
+</html>
