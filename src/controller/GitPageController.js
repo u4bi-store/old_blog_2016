@@ -66,7 +66,7 @@ function GitPageController($scope, GitPageService) {
     }
     function notice(){
         $scope.viewNotice = true;
-        GitPageService.json('/config/notice.json').then(function(data){
+        GitPageService.json('config/notice.json').then(function(data){
             $scope.notice =data;
         });
         hintCommand(1);
@@ -75,7 +75,7 @@ function GitPageController($scope, GitPageService) {
         $scope.viewDairy = true;
         $scope.readDay = num;
         $scope.readHint = GitPageService.readHint(num);
-        GitPageService.json('/day/day'+num+'.json').then(function(data){
+        GitPageService.json('day/day'+num+'.json').then(function(data){
             $scope.day =data;
             hintCommand(2);
         }, function(reason) {
@@ -86,7 +86,7 @@ function GitPageController($scope, GitPageService) {
 //----------------------- stock --------------------------
 
     function hintCommand(type){
-        GitPageService.json('/config/hint.json').then(function(data){
+        GitPageService.json('config/hint.json').then(function(data){
             $scope.hint =data.main[type];
         });
     }

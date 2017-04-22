@@ -1,27 +1,13 @@
-@font-face {
-    font-family:'NanumGothic';
-    src: url('font/NanumGothic.eot');
-    src: url('font/NanumGothic.eot?#iefix') format('embedded-opentype'),
-            url('font/NanumGothic.woff') format('woff'),
-            url('font/NanumGothic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal; 
-}
-
-/***
-* body
-****/
+/* body */
 body {
-  /* background:#000; */
-  background: url('../images/back_1.jpg') no-repeat fixed 0 0 / cover;
+  background: url('../images/wallpaper.jpg') no-repeat fixed 0 0 / cover;
   font-size: 11;
-  font-weight: bold;
-  font-family:'NanumGothic';
+  font-weight: 500;
+  font-family: 'Noto Sans Korean', sans-serif;
+
 }
 
-/***
-* terminal
-****/
+/* terminal */
 #terminal{
   width:90%;
   height: 90%;
@@ -34,9 +20,7 @@ body {
   background-color: rgba(0,0,0,.6);
 }
 
-/***
-* terminal-send
-****/
+/* terminal-send */
 #terminal-title{ width: 30%;}
 .terminal-hint{ color: #c2bc97; font-size:9pt;}
 #terminal-send{
@@ -49,9 +33,7 @@ body {
   outline: none;
 }
 
-/***
-* dos
-****/
+/* dos */
 #dos-text{width:90%; margin-left: 3%;}
 #dos-title{font-size:12pt;}
 .dos-content-title{color:#709ECC;}
@@ -65,8 +47,8 @@ body {
 
 .item{
   position:fixed;
-  width: 70%;
-  height:5rem;
+  width : 70%;
+  height: 3rem;
   background-color: rgba(192, 192, 192, 0.7);
   left: 15%;
   bottom:-7px;
@@ -82,4 +64,5 @@ body {
 
 a{
   color:#fff;
+  opacity: 0.9;
 }
