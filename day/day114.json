@@ -1,0 +1,16 @@
+{
+    "year" : 2017,
+    "month" : 2,
+    "day" : 28,
+    "hour" : 23,
+    "min" : 55,
+    "title" : "ui/ux 디자인",
+    "content" : "요즘 급격히 변하고 있는 웹 프톤트라지만 그래도 내가 생각하길 큰 비중은 CSS다 하지만 그것보다 더 집중을 해야하는 부분은 ui/ux디자인 내가 css에 대해서 조명을 가지고 공부한 이유도 그 끝은 ui/ux를 위해서 그런게 아닐까 싶다. ui/ux에 대해서 여러개 많이 참조해가면서 비슷하게 구현도 해보고 좋은건 코드도 인용하면서 나만의 ui/ux 템플릿을 만들어볼 생각이다.",
+    "til" :[
+        ["dynamicdrive CSS 스타일 공개 사이트","https://github.com/u4bi/TIL/blob/bc703db76ae0d5479038a03cf2a02b7087821028/CSS/css-dynamicdrive-site.md"],
+        ["creative tim CSS 템플릿","https://github.com/u4bi/TIL/commit/81492b75e902e49ca9afac0e6bbd4b47bdf9edf5"]
+    ],
+    "nice" : "ui/ux 디자인 공부에 집중 조명해보겠다는 마음을 다짐",
+    "bad" : "없음",
+    "imp" : "삼일절에 ui/ux 공부하기 여러 라이브러리와 기술들 참고하면서 따라해보기도하면서 나만의 웹 디자인 템플릿들을 늘려보자"
+}
