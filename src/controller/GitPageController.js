@@ -1,35 +1,41 @@
 app.controller('GitPageController', GitPageController);
 
-function GitPageController($scope, GitPageService) {
+function GitPageController($scope, GitPageService, GitPageManager) {
 
     init();
     
     function init(){
-        keyModeManager(0);
+
+        key(0);
+
         $scope.flag = false;
         $scope.join = false;
         $scope.already = '';
+        
         $scope.action = function(send){
-            if(send == $scope.already) return $scope.send ='';
+            
+            if(send === $scope.already) return $scope.send ='';
+
             if(!$scope.join){
-                if(send == 'shell') cmdManager(send, 0);
+                if(send === 'shell') cmd(send, 0);
             }else{
-                if(send == 'cd') cmdManager(send, 1);
-                if(send == 'exit') cmdManager(send, 2);
-                if(send.substr(0, 4) == 'day '){
+                if(send === 'cd') cmd(send, 1);
+                if(send === 'exit') cmd(send, 2);
+                if(send.substr(0, 4) === 'day '){
                     var num = send.substr(4, send.length);
-                    cmdManager(send, 3, num);
+                    cmd(send, 3, num);
                 }
             }
+
             $scope.send ='';
         };
         $scope.sendClick = function(){
             document.getElementById("terminal-send").focus();
         };
     }
-//----------------------- manager --------------------------
-    function cmdManager(send,type, num){
-        removeAlreadyCMD($scope.already);
+
+   function cmd(send,type, num){
+        remove($scope.already);
         $scope.already = send;
         switch(type){
             case 0: shell(); break;
@@ -39,21 +45,21 @@ function GitPageController($scope, GitPageService) {
             default :break;
         }
     }
-    function removeAlreadyCMD(already){
-        if(already == 'shell' || already == 'cd'){
+
+    function remove(already){
+        if(already === 'shell' || already === 'cd'){
             $scope.viewNotice = false;
             $scope.notice = null;
         }
-        if(already.substr(0, 4) == 'day '){
+        if(already.substr(0, 4) === 'day '){
             $scope.viewDairy = false;
             $scope.day  = null;
             $scope.readHint =null;
         }
     }
 
-//----------------------- CMD --------------------------
     function shell(){
-        keyModeManager(1);
+        key(1);
         $scope.join = true;
         notice();
     }
@@ -61,7 +67,7 @@ function GitPageController($scope, GitPageService) {
         notice();
     }
     function exit(){
-        keyModeManager(0);
+        key(0);
         $scope.join = false;
     }
     function notice(){
@@ -69,7 +75,7 @@ function GitPageController($scope, GitPageService) {
         GitPageService.json('config/notice.json').then(function(data){
             $scope.notice =data;
         });
-        hintCommand(1);
+        command(1);
     }
     function day(num){
         $scope.viewDairy = true;
@@ -77,21 +83,19 @@ function GitPageController($scope, GitPageService) {
         $scope.readHint = GitPageService.readHint(num);
         GitPageService.json('day/day'+num+'.json').then(function(data){
             $scope.day =data;
-            hintCommand(2);
+            command(2);
         }, function(reason) {
-            cmdManager('exit', 2);
+            cmd('exit', 2);
         });
     }
 
-//----------------------- stock --------------------------
-
-    function hintCommand(type){
+    function command(type){
         GitPageService.json('config/hint.json').then(function(data){
             $scope.hint =data.main[type];
         });
     }
     
-    function keyModeManager(type){
+    function key(type){
         var key = GitPageService.key();
         $scope.shell = key.shell[type];
         $scope.cmd = key.cmd[type];
@@ -99,7 +103,7 @@ function GitPageController($scope, GitPageService) {
             case 0:{
                 $scope.bg_shell = {'color': key.style.yellow};
                 $scope.bg_cmd = {'color': key.style.yellow};
-                hintCommand(0);
+                command(0);
                 break;
             }
             case 1:{
