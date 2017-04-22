@@ -1,6 +1,6 @@
 app.controller('GitPageController', GitPageController);
 
-function GitPageController($scope, GitPageService, GitPageManager) {
+function GitPageController($scope, GitPageService) {
 
     init();
     
